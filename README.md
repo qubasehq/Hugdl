@@ -65,7 +65,7 @@ go run hugdl.go -help
 🚀 hugdl - Fast HuggingFace Model Downloader
 ==================================================
 📦 Model: Qwen/Qwen2.5-Coder-0.5B
-📁 Output: C:\Users\sarat\hf\models\Qwen_Qwen2.5-Coder-0.5B
+📁 Output: C:\Users\user\hf\models\Qwen_Qwen2.5-Coder-0.5B
 ==================================================
 🔍 Checking available files...
 ✅ Found 12 files
@@ -118,7 +118,7 @@ go run main.go -help
 🚀 hugdl - Fast HuggingFace Model Downloader (Full Version)
 ==================================================
 📦 Model: Qwen/Qwen2.5-Coder-0.5B
-📁 Output: C:\Users\sarat\hf\models\Qwen_Qwen2.5-Coder-0.5B
+📁 Output: C:\Users\user\hf\models\Qwen_Qwen2.5-Coder-0.5B
 ==================================================
 🔍 Checking available files...
 ✅ Found 12 files
@@ -166,7 +166,7 @@ go run main.go -help
 | Option | Description | Default |
 |--------|-------------|---------|
 | `-model` | Model name to download | `Qwen/Qwen2.5-Coder-0.5B` |
-| `-output` | Output directory for files | `C:\Users\sarat\hf\models` |
+| `-output` | Output directory for files | `C:\Users\user\hf\models` |
 | `-help` | Show help message | `false` |
 
 ## 🎯 Supported Models
@@ -221,7 +221,7 @@ go run hugdl.go -model "your-username/your-model-name"
 go run hugdl.go -model Qwen/Qwen2.5-Coder-0.5B -output D:\my_models
 
 # Download to custom path
-go run hugdl.go -model meta-llama/Llama-2-7b-chat-hf -output C:\Users\sarat\Documents\models
+go run hugdl.go -model meta-llama/Llama-2-7b-chat-hf -output C:\Users\user\Documents\models
 ```
 
 ## 🚀 Performance
@@ -256,7 +256,7 @@ go run hugdl.go -model meta-llama/Llama-2-7b-chat-hf -output C:\Users\sarat\Docu
 After downloading, convert to GGUF format:
 ```bash
 cd ..\llama.cpp
-python convert_hf_to_gguf.py "C:\Users\sarat\hf\models\Qwen_Qwen2.5-Coder-0.5B" --outfile "C:\Users\sarat\hf\models\qwen2.5-coder-0.5b.gguf" --outtype q8_0
+python convert_hf_to_gguf.py "C:\Users\user\hf\models\Qwen_Qwen2.5-Coder-0.5B" --outfile "C:\Users\user\hf\models\qwen2.5-coder-0.5b.gguf" --outtype q8_0
 ```
 
 ## 🚀 Build Executable
