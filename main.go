@@ -40,6 +40,7 @@ func main() {
 	)
 	flag.Parse()
 
+	
 	// Show help if requested
 	if *help {
 		fmt.Println("🚀 Go Model Downloader (Full Version)")

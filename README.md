@@ -52,6 +52,7 @@ go run hugdl.go
 # Download specific model
 go run hugdl.go -model microsoft/DialoGPT-medium
 
+
 # Download with custom output directory
 go run hugdl.go -model meta-llama/Llama-2-7b-chat-hf -output D:\models
 

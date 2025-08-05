@@ -29,6 +29,7 @@ func main() {
 	)
 	flag.Parse()
 
+	
 	// Show help if requested
 	if *help {
 		fmt.Println("🚀 hugdl - Fast HuggingFace Model Downloader")
